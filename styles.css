@@ -1,0 +1,112 @@
+/*
+Stylesheet for work project
+    Auth: Tom Q.
+    Date: 30AUG2020
+Additional edits done on 19 OCT for 
+	Concept Epicenter
+
+*/
+
+/*reset styling*/
+article, body, div, footer, header, h1, h2, h3
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+h1
+{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: black;
+	background: white;
+	border: 2px solid #6B8E23;
+	border-radius: 20px;
+}
+
+/* style header */
+.header
+{
+	padding: 10px 16px;
+	background: #555;
+	color: #f1f1f1;
+}
+
+/*body*/
+body
+{
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+	padding: 16px; /*for page content*/
+}
+/*
+.contain
+{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 1em;
+}
+
+li
+{
+    background-color: white;
+    position: relative;
+    
+}
+*/
+
+nav.stenav
+{
+    /*color: #34180f;
+    background-color: #edab37;*/
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    
+}
+/*
+nav.stenav ul
+{
+    background-color: inherit;
+    border: none;
+    /*margin: 0.3em 0.6em;
+    /*padding:  14px 28px
+    margin: 0.25em 0.4em;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+*/
+
+/*Sticky class is added to header with JS when reaches scroll position*/
+.sticky
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/*
+Adding top padding to page conent
+*/
+.sticky + .content 
+{
+	padding-top: 102px;
+}
+
+
+form
+{
+	width: 50%;
+	margin: 30px auto;
+	border-radius: 5px;
+	padding: 10px;
+	background: #FFF8DC;
+	border: 1px solid #6B8E23;
+}
+
+
